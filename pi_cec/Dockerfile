@@ -43,4 +43,4 @@ COPY --from=builder /usr/lib/libcec.so.$LIBCEC6_VERSION /usr/lib/
 RUN ln -s libcec.so.$LIBCEC6_VERSION /usr/lib/libcec.so.6
 RUN ln -s libcec.so.6
 RUN pip install pycec
-CMD [ "python3", "-m", "pycec" ]
+CMD [ "python3", "-m", "pycec", "-v" ]
