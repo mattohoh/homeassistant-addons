@@ -1,4 +1,4 @@
-# Raspberry Pi CEC server add-on
+# Raspberry Pi CEC server add-on (forked by mattohoh)
 
 Starting from [HomeAssistant](https://www.home-assistant.io) 2021.7.0, the CEC
 libraries included in HomeAssistant do no longer support CEC interfaces that are
